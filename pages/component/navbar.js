@@ -3,8 +3,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export function Navbar () {
     return (
         <div className="flex bg-white dark: bg-slate-800 text-black  justify-between align h-10 items-center">
-             <div className="dark:text-white   " > logo </div> 
-            <span className="text-right gap-10 flex text-left">
+             <div className="dark:text-white " > logo </div> 
+            <span className="text-right gap-10 flex text-left mr-20">
                <a href="" className="hidden lg:block text-right"> About </a>
                <a href="" className="hidden lg:block text-right"> Work </a>
                <a href="" className="hidden lg:block text-right"> Testimonials </a>
