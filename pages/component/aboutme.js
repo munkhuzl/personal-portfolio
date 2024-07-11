@@ -3,15 +3,15 @@ export function Aboutme(){
         <div className="relative bg-zinc-100 dark:bg-gray-950 pl-10 py-10  ">
              <h1 className="text-center pt-10 pb-5 ">About me</h1>
              <div className=" md:flex">
-                <img src="http://localhost:3000/images/aboutme.png" className=" py-3  sm:align-items-center"/>
+                <img src="http://localhost:3000/images/aboutme.png" className=" py-3  md:align-items-center pl-20"/>
                 <div className="p-20">
-                    <p className="text-center font-bold ">Curious about me? Here you have it:</p>
+                    <p className="font-bold ">Curious about me? Here you have it:</p>
                     <p>I'm passionate, <a href ="" className="underline underline-offset-1">self-proclaimed designer</a>who speacializes in full stack development (React.js & Node.js)
                     I am very enthusiastic about bringing the technical and visual aspects of digital
                     products to life.User experience, pixel perpect design, and writing clear, readeble, 
                     highly performant code matters to me. <br className="pt-3"/>
                     </p>
-                    <p className=""py-3>I began my journey as a web developer in 2015, and since then i've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey.  
+                    <p className="py-3">I began my journey as a web developer in 2015, and since then i've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey.  
                     </p>
                     <p className="py-3">I'm building cutting-edge web appliciations using modern technologies such as
                         Next.js Typescript, Nestjs, Tailwindcss, Suoavase and much more</p>

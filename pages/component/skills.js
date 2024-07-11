@@ -1,19 +1,45 @@
-import { Languages } from "./languages"
+import { Language } from "./language"
 export function Skills (){
     return (
-        <div className="relative bg-white dark:bg-slate-950 ">
-            <div className="text-center">Skills</div>
-            <div className="text-center md:text-wrap">The skills, tools and technologies
-                 I am really good at: </div>
-            {/* <div className="grid grid-rows-2 md:grid-rows-6 "> */}
-                <Languages apps="mk"/>
-                <Languages logo="" apps="lan"/>
-              
-                {/* <div className="w-78px h-96px relative">
-                    <img className="w-64px h-64px " src=""/>
-                </div> */}
-            {/* </div> */}
+        <div className="bg-white dark:bg-slate-800 pb-10">
+            <h1 className="text-center md:text-center p-5">Skills</h1>
+            <p className="text-center pb-10">The skills, tools and technologies I am really good at:</p>
+            <div className="columns-3 md:flex columns-5 gap-5 p-10">
+            <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="React"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="MongoDb"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Cypress"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="React"/>
+                    <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Git"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Tailwind.css"/>
+                    <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Node.js"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Next.js"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name=""/>
+                    <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Javascript"/>
+                <Language 
+                img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
+                name="Typescript"/>
+                 </div>
+                 
         </div>
-        
     )
 }
