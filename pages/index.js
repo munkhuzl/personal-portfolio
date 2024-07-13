@@ -4,6 +4,7 @@ import {Navbar} from "./component/navbar"
 import { Aboutme } from "./component/aboutme";
 import { Skills } from "./component/skills";
 import { Experience } from "./component/experience";
+import {Work} from "./component/work";
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Aboutme/>
         <Skills/>
         <Experience/>
+        <Work />
         </div>
     
     </main>

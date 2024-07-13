@@ -38,8 +38,7 @@ export function Skills (){
                 <Language 
                 img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s"
                 name="Typescript"/>
-                 </div>
-                 
+                 </div> 
         </div>
     )
 }
