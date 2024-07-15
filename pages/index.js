@@ -5,7 +5,7 @@ import { Aboutme } from "./component/aboutme";
 import { Skills } from "./component/skills";
 import { Experience } from "./component/experience";
 import {Work} from "./component/work";
-
+import { Contact } from "./component/contactme";
 
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
         <Skills/>
         <Experience/>
         <Work />
+        <Contact/>
         </div>
     
     </main>
