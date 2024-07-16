@@ -1,7 +1,10 @@
 export function Aboutme(){
     return ( 
-        <div className="relative bg-zinc-100 dark:bg-gray-950 pl-10 py-10  ">
-             <button className="display:block m-auto  rounded bg-slate-300 ">About me</button>
+        <div className="relative bg-zinc-100 dark:bg-gray-950 pl-10 py-10 ">
+            <div className="text-center" >
+                  <button className="rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">About me</button>
+            </div>
+          
              <div className=" md:flex">
                 <img src="http://localhost:3000/images/aboutme.png" className=" py-3  md:align-items-center pl-20"/>
                 <div className="p-20">

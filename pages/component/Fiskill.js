@@ -4,14 +4,17 @@ import { LanName } from "./LanName"
 export function Fiskill(props){
     return (
 
-        <div className=" text-center md:flex mx-10">
-             <div className="md:flex-1 mt-10 bg-gray-200 dark:bg-gray-800">
-                <img className=" justify-center items-center " src={props.web}/>  
+        <div className=" text-center m-10 items-center md:flex  m-10">
+             <div className=" mt-10 bg-gray-200 dark:bg-gray-800  justify-center items-center md:flex-1">
+                <img className="  " src={props.web}/>  
              </div>
            <div className=" md:flex-1 bg-gray-100 dark:bg-gray-900">
                 <h1 className="font-bold text-start py-5">{props.skill}</h1>
+            <div className="w-[279px] md:w-[480px]">
                 <p className="text-start pb-5">{props.text1}</p>
-                 <div className="columns-3 md:flex columns-5 gap-15 text-start p-3">
+            </div> 
+               
+                 <div className="columns-3 w-[279px]  md:flex  gap-15 text-start p-3 md:w-[480px]">
                       <LanName LanName="React"/>
                        <LanName LanName="Storybook"/>
                         <LanName LanName="Typescript"/>
