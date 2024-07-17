@@ -4,12 +4,12 @@ import { Fiskill } from "./Fiskill"
 
 export function Work (props){
     return (
-        <div className="">
-            <div className="relative text-center">
-            <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">Work</button>
+        <div className="relative bg-slate-900">
+            <div className="text-center dark:bg-black">
+            <button className=" items-center rounded-full  my-5 dark:bg-gray-800 p-2">Work</button>
                 <p className="text-center ">Some of the noteworthy projects i have built:</p>
           
-           <div className="bg-gray-50">
+           <div className="bg-black">
                 <Fiskill 
                
                 skill="Fiskill"

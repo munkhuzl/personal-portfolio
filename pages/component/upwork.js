@@ -8,7 +8,7 @@ return (
             <div className="md:flex-1">
                 <p> {props.date}</p>
             </div>
-            <div>
+            <div className="">
                 <h1 className="font-bold flex-1">{props.position}</h1>
                 <ul className="list-disc">
                     <li>{props.projects} </li>

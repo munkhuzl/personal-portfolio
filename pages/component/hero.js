@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export function Hero (){
     return (
-        <div className="pt-10 pb-10 border-2 border-rose-200 bg-gray dark:bg-slate-800 ">
+        <div className="pt-10 pb-10  bg-gray dark:bg-slate-800 ">
            <div className="ml-20 mr-20  columns-1 sm:columns-2 gap-0 ">
-            <div className="flex-1  order-0 flex-grow-0 w-[280px] h-[300px]">
+            <div className="flex-1  order-0 flex-grow-0 w-[280px] h-[300px] justify-center">
                 <img className="w-[240px] h-[280px] left-[92px] border-r-8 border-gray-200 border-b-8 border-gray-200" src="http://localhost:3000/images/Pic.png"/>
             </div>
                 <div className="text-2xl font-bold my-5 md: flex-1">Hi I'm Sagar 🙋‍♂️  </div>
