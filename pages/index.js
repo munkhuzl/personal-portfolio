@@ -6,12 +6,13 @@ import { Skills } from "./component/skills";
 import { Experience } from "./component/experience";
 import {Work} from "./component/work";
 import { Contact } from "./component/contactme";
+import {Footer} from "./component/footer";
 
 
 export default function Home() {
   return (
     <main> 
-       <div>
+       <div className="">
         <Navbar/>
         <Hero/>
         <Aboutme/>
@@ -19,6 +20,7 @@ export default function Home() {
         <Experience/>
         <Work />
         <Contact/>
+        <Footer/>
         </div>
     
     </main>

@@ -1,6 +1,6 @@
 export function Aboutme(){
     return ( 
-        <div className="relative bg-zinc-100 dark:bg-gray-950 pl-10 py-10 ">
+        <div className="relative bg-zinc-100 dark:bg-gray-900 pl-10 py-10 ">
             <div className="text-center" >
                   <button className="rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">About me</button>
             </div>

@@ -1,20 +1,19 @@
 import { Language } from "./language"
-import { LanName } from "./LanName"
 
 export function Fiskill(props){
     return (
 
-        <div className=" text-center  md:flex  m-10">
-             <div className=" mt-10 bg-gray-200 dark:bg-gray-800   justify-center items-center md:flex-1">
-                <img className="  " src={props.web}/>  
+        <div className=" text-center shadow  md:flex  m-10">
+             <div className="  bg-gray-200 dark:bg-gray-800 fit-content flex justify-center  md:flex-1 align-center ">
+                <img className="w-full shadow" src={props.web}/>  
              </div>
            <div className=" md:flex-1 bg-gray-100 dark:bg-gray-900">
-                <h1 className="font-bold text-start py-5">{props.skill}</h1>
-            <div className="w-[279px] md:w-[480px]">
-                <p className="text-start pb-5">{props.text1}</p>
+                <h1 className="font-bold text-start py-5 pl-5">{props.skill}</h1>
+            <div className="">
+                <p className="text-start pb-5 pl-5">{props.text1}</p>
             </div> 
                
-                 <div className="columns-3 w-[279px]   md:flex flex-wrap gap-15 text-start p-3 md:w-[480px]">
+                <div className="columns-3   md:flex flex-wrap text-start  ">
                       <LanName LanName="React"/>
                        <LanName LanName="Storybook"/>
                         <LanName LanName="Typescript"/>
@@ -25,8 +24,8 @@ export function Fiskill(props){
                              <LanName LanName="Cypress"/>
                               <LanName LanName="PostgreSQL"/>
                                 <LanName LanName="Git"/>
-                                <LanName LanName="Git"/>
-                 </div>
+                                 <LanName LanName="Git"/>
+                </div>
                 
            
             </div> 
@@ -34,3 +33,11 @@ export function Fiskill(props){
         </div>
     )
 }
+ function LanName(props) {
+    return (
+         <div>
+        <button className="rounded-full p-1 m-3 bg-gray-200 dark:bg-gray-800">{props.LanName}</button>
+    </div> )
+}
+   
+   

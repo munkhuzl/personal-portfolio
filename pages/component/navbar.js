@@ -13,7 +13,7 @@ export function Navbar () {
      }
 
     return (
-        <div className="flex text-gray-600  dark:bg-slate-800  text-white justify-between align h-10 items-center">
+        <div className="flex text-gray-600  dark:bg-black  text-white justify-between align h-10 items-center">
          <div className="ml-5 dark:text-white " >logo</div>
             <span className="text-right gap-10 flex text-left mr-20">
                <a href="" className="hidden lg:block text-right font-bold"> About </a>
@@ -45,7 +45,7 @@ export function Navbar () {
                         <MdOutlineDarkMode className="dark:text-white"/>
                     </div>
                     <button className="flex justify-center py-[6px] px-[16] w-[280px] h-[36px]
-                    bg-black text-gray-200 dark:text-white rounded  font-bold py-3 dark:bg-white dark:text-black"> Download CV</button>     
+                    bg-black text-gray-200 rounded  font-bold py-3 dark:bg-white dark:text-black"> Download CV</button>     
                                     
                     </div>
                  </div>

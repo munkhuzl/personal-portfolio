@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Hero (){
     return (
-        <div className="pt-10 pb-10  bg-gray dark:bg-slate-800 ">
+        <div className="pt-10 pb-10  bg-gray dark:bg-black ">
            <div className="ml-20 mr-20  columns-1 sm:columns-2 gap-0 ">
             <div className="flex-1  order-0 flex-grow-0 w-[280px] h-[300px] justify-center">
                 <img className="w-[240px] h-[280px] left-[92px] border-r-8 border-gray-200 border-b-8 border-gray-200" src="http://localhost:3000/images/Pic.png"/>
