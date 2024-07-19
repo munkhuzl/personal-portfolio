@@ -13,20 +13,19 @@ export function Navbar () {
      }
 
     return (
-        <div className="flex text-gray-600  dark:bg-black  text-white justify-between align h-10 items-center">
-         <div className="ml-5 dark:text-white " >logo</div>
-            <span className="text-right gap-10 flex text-left mr-20">
-               <a href="" className="hidden lg:block text-right font-bold"> About </a>
-               <a href="" className="hidden lg:block text-right font-bold"> Work </a>
-               <a href="" className="hidden lg:block text-right font-bold"> Testimonials </a>
-               <a href="" className="hidden lg:block text-right font-bold"> Contact</a>
-                <div className="hidden lg:block text-right">
+        <div className="flex fixed bg-white text-gray-900 dark:bg-black dark:text-white  align h-10  w-full  items-center z-10 ">
+         <div className="ml-5 dark:text-white flex-1 " >logo</div>
+            <span className="text-right gap-10 flex text-left  items-end mr-20">
+               <a href="" className="hidden lg:block text-right text-gray-600"> About </a>
+               <a href="" className="hidden lg:block text-right text-gray-600"> Work </a>
+               <a href="" className="hidden lg:block text-right text-gray-600"> Testimonials </a>
+               <a href="" className="hidden lg:block text-right text-gray-600"> Contact</a>
+                <div className="hidden lg:block text-right flex order-last">
                 <MdOutlineDarkMode />
                 </div>
                 <button className="bg-slate-200 dark:text-black bg-white rounded hidden lg:block gap-10 font-bold"> Download CV</button>
                  <GiHamburgerMenu onClick={openMenu} className="lg:hidden mr-0 "/>        
             </span> 
-               
                  <div className={open ? "block" : "hidden"} >
                     <div className="fixed inset-0 bg-slate-500/90 z-10" onClick={closeMenu}></div>
                     <div className="fixed top-0 bottom-0 right-0 w-64 text-black bg-white shadow-lg dark:bg-slate-800 z-10">

@@ -7,20 +7,17 @@ import { PiCopySimpleDuotone } from "react-icons/pi";
 export function Contact() {
 
     return (
-        <div className="relative flex flex-col items-center">
+        <div className=" flex flex-col items-center w-full ">
             <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-950 p-2">Get in touch</button>
-            <p className="w-[576px] text-center">What's next? Feel free to reach out
+            <p className="lg:w-[576px] text-wrap text-center">What's next? Feel free to reach out
                 to me if you're looking for a developer, have a query,
                 or simply want to connect.</p>
-            <div className="text-4xl pt-5 flex gap-4">
+            <div className="text-3xl  pt-5 flex gap-4">
                 <AiOutlineMessage />
                 reachsagarshah@gmail.com 
                 <button>   <PiCopySimpleDuotone /></button>
-            </div>
-
-         
-               
-            <div className="text-4xl py-5">+918980500565</div>
+            </div>               
+            <div className="text-3xl py-5">+918980500565</div>
             <div className=" py-5 ">You may also find me on these platforms:
                 <div className="flex  gap-3 justify-center mt-3">
                     <img src="http://localhost:3000/images/Icon%20Button.png" />
