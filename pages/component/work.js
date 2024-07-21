@@ -4,9 +4,9 @@ import { Fiskill } from "./Fiskill"
 
 export function Work (props){
     return (
-        <div className="relative dark:bg-gray-900 w-full ">
+        <div className="relative dark:bg-gray-900 w-full bg-white ">
             <div className="text-center dark:bg-black">
-            <button className=" items-center rounded-full  my-5 dark:bg-gray-800 p-2 dark:text-white">Work</button>
+            <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2 dark:text-white">Work</button>
                 <p className="text-center dark:text-white">Some of the noteworthy projects i have built:</p>
           
            <div className="dark:bg-black">

@@ -5,7 +5,7 @@ export function Aboutme(){
                   <button className="rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">About me</button>
             </div>
           
-             <div className=" md:flex">
+             <div className=" md:flex ">
                 <img src="http://localhost:3000/images/aboutme.png" className=" py-3  md:align-items-center pl-20"/>
                 <div className="p-20">
                     <p className="font-bold ">Curious about me? Here you have it:</p>

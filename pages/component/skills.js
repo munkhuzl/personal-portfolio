@@ -4,7 +4,7 @@ export function Skills (){
         <div className="bg-white dark:bg-gray-950 pb-10 text-center w-full">
             <button className="rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">Skills</button>
             <p className="text-center pb-10">The skills, tools and technologies I am really good at:</p>
-            <div className="grid grid-cols-3 md:grid md:grid-cols-8 gap-3 mb-3">
+            <div className="grid grid-cols-3 md:grid md:grid-cols-8 gap-2 md:justify-items-center">
             <Language 
                 img="http://localhost:3000/images/icon-typescript.jpg"
                 name="Typescript"/>

@@ -1,5 +1,5 @@
 import { Language } from "./language"
-
+import { CiShare1 } from "react-icons/ci";
 export function Fiskill(props){
     return (
 
@@ -13,7 +13,7 @@ export function Fiskill(props){
                 <p className="text-start pb-5 pl-5">{props.text1}</p>
             </div> 
                
-                <div className="columns-3   md:flex flex-wrap text-start  ">
+                <div className="columns-3   md:flex md:flex-wrap text-start  ">
                       <LanName LanName="React"/>
                        <LanName LanName="Storybook"/>
                         <LanName LanName="Typescript"/>
@@ -26,18 +26,16 @@ export function Fiskill(props){
                                 <LanName LanName="Git"/>
                                  <LanName LanName="Git"/>
                 </div>
-                
-           
+                <CiShare1 className="text-2xl ml-3 my-3 md:mt-8 "/>
             </div> 
-           
         </div>
     )
 }
  function LanName(props) {
     return (
          <div>
-        <button className="rounded-full p-1 m-3 bg-gray-200 dark:bg-gray-800">{props.LanName}</button>
-    </div> )
-}
+            <button className="rounded-full p-1 m-3 bg-gray-200 dark:bg-gray-800">{props.LanName}</button>
+        </div> )
+    }
    
    
