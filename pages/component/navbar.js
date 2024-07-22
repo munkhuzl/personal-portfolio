@@ -14,12 +14,14 @@ export function Navbar () {
 
     return (
         <div className="flex fixed bg-white text-gray-900 dark:bg-black dark:text-white  align h-10  w-full  items-center z-10 ">
-         <div className="ml-5 dark:text-white flex-1 " >logo</div>
+         <div className="ml-5 dark:text-white flex-1 " >
+             SS/
+         </div>
             <span className="text-right gap-10 flex text-left  items-end mr-20">
                <a href="" className="hidden lg:block text-right text-gray-600"> About </a>
                <a href="" className="hidden lg:block text-right text-gray-600"> Work </a>
                <a href="" className="hidden lg:block text-right text-gray-600"> Testimonials </a>
-               <a href="" className="hidden lg:block text-right text-gray-600"> Contact</a>
+               <a href="#contacte.js" className="hidden lg:block text-right text-gray-600"> Contact</a>
                 <div className="hidden lg:block text-right flex order-last">
                 <MdOutlineDarkMode />
                 </div>

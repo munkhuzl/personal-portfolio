@@ -8,14 +8,14 @@ export function Contact() {
 
     return (
         <div className=" flex flex-col items-center w-full ">
-            <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-950 p-2">Get in touch</button>
+            <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-900 p-2">Get in touch</button>
             <p className="lg:w-[576px] text-wrap text-center text-gray-600">What's next? Feel free to reach out
                 to me if you're looking for a developer, have a query,
                 or simply want to connect.</p>
             <div className="text-3xl  pt-5 flex gap-4">
                 <AiOutlineMessage />
                 reachsagarshah@gmail.com 
-                <button>   <PiCopySimpleDuotone /></button>
+                <button>   <PiCopySimpleDuotone  /></button>
             </div>               
             <div className="text-3xl py-5">+918980500565</div>
             <div className=" py-5 ">You may also find me on these platforms:
@@ -31,4 +31,20 @@ export function Contact() {
     )
 }
 
+// const CopyButton = () => {
+//   const { copy, state } = useClipboard()
 
+//   if (state.status === "unsupported") {
+//     return null
+//   }
+
+//   if (state.status === "error") {
+//     return <button>{state.message}</button>
+//   }
+
+//   if (state.status === "copied") {
+//     return <button>Already copied!</button>
+//   }
+
+//   return <button onClick={() => copy("Some content to copy")}>Copy</button>
+// }
