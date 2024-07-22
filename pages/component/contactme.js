@@ -9,7 +9,7 @@ export function Contact() {
     return (
         <div className=" flex flex-col items-center w-full ">
             <button className=" items-center rounded-full bg-gray-200 my-5 dark:bg-gray-950 p-2">Get in touch</button>
-            <p className="lg:w-[576px] text-wrap text-center">What's next? Feel free to reach out
+            <p className="lg:w-[576px] text-wrap text-center text-gray-600">What's next? Feel free to reach out
                 to me if you're looking for a developer, have a query,
                 or simply want to connect.</p>
             <div className="text-3xl  pt-5 flex gap-4">
