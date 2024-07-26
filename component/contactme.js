@@ -20,7 +20,7 @@ export function Contact() {
             <div className="text-3xl py-5">+918980500565</div>
             <div className=" py-5 ">You may also find me on these platforms:
                 <div className="flex  gap-3 justify-center mt-3">
-                    <img src="http://localhost:3000/images/Icon%20Button.png" />
+                    <img src="http://localhost:3000/images/Icon%20Button.png/" />
                     <img src="http://localhost:3000/images/Icon%20Twitter.png" />
                     <img src="http://localhost:3000/images/Icon%20Figma.png" />
                 </div>

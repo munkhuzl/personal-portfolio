@@ -8,14 +8,14 @@ const worksData = [
         web: "/images/fisk.png",
     },
     {
-        web: "/images/fisk.png",
+        web: "/public/images/fisk.png",
         skill: "Skill",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     },
     {
         skill: "Fiskill",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-        web: "/images/fisk.png",
+        web: "/Users/24LP1786/Desktop/personal-portfolio/public/images/Fisk.png",
     },
 ]
 export function Works() {

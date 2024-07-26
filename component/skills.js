@@ -52,9 +52,6 @@ export function Skills (){
                     <Language 
                 img="http://localhost:3000/images/icon-git.png"
                 name="Git"/>
-              
-        
-               
                  </div> 
         </div>
     )
