@@ -53,5 +53,4 @@ export function Navbar () {
         </div>
     )
 }
-/* Background */
 

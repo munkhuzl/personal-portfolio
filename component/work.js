@@ -67,8 +67,6 @@ function WorkCard({ work, isReverse }) {
         </div>
     )
 }
-
-
 function LanName(props) {
     return (
         <div>
