@@ -12,7 +12,7 @@ import {Footer} from "../component/footer";
 export default function Home() {
   return (
     <main> 
-       <div className="">
+       <div className="mx-auto">
         <Navbar/>
         <Hero/>
         <Aboutme/>

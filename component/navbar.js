@@ -2,6 +2,7 @@ import { MdOutlineDarkMode } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import { IoMdCloseCircleOutline } from "react-icons/io";
+import Link from "next/link";
 export function Navbar () {
     const [open, setOpen] = useState();
      function openMenu(){
@@ -18,10 +19,11 @@ export function Navbar () {
              SS/
          </div>
             <span className="text-right gap-10 flex text-left  items-end mr-20">
-               <a href="" className="hidden lg:block text-right text-gray-600"> About </a>
-               <a href="" className="hidden lg:block text-right text-gray-600"> Work </a>
-               <a href="" className="hidden lg:block text-right text-gray-600"> Testimonials </a>
-               <a href="#contacte.js" className="hidden lg:block text-right text-gray-600"> Contact</a>
+                <Link href={'/aboutme.js'} className="hidden lg:block text-right text-gray-600">About</Link>
+                <Link href={'work'} className="hidden lg:block text-right text-gray-600">Work</Link>
+                <Link href={'/'} className="hidden lg:block text-right text-gray-600">Testimonials</Link>
+                <Link href={'/contactme'} className="hidden lg:block text-right text-gray-600">Contact</Link>
+                <Link href={'/about'} className="hidden lg:block text-right text-gray-600">Switch theme</Link>
                 <div className="hidden lg:block text-right flex order-last">
                 <MdOutlineDarkMode />
                 </div>
@@ -36,15 +38,24 @@ export function Navbar () {
                             <IoMdCloseCircleOutline onClick={closeMenu} className="mr-3 dark:text-white"/>  
                         </div>
                      <div className="p-3 dark:text-white ">
-                         <div  className=" py-1"> <a href="" className="py-3"> About </a>  </div> 
-                         <div  className=" py-1">  <a href="text-gray-600" > Work </a></div>
-                         <div  className=" py-1"> <a href=""> Testimonials </a></div>
-                        <div  className=" py-1"> <a href="" > Contact</a></div>
-                    </div>
-                    <div className="flex justify-between px-3 pb-3">
-                        <p className="dark:text-white">Switch Theme</p>
+                    <span className="flex flex-col">
+                    <Link href={'/aboutmw.js'} className="py-1">About</Link>
+                        <Link href={'/about'} className="py-1">Work</Link>
+                        <Link href={'/about'} className="py-1">Testimonials</Link>
+                        <Link href={'/about'} className="py-1">Contact</Link>
+                        <div className="flex justify-between px-3 pb-3">
+                        <p className="dark:text-white py-1">Switch Theme</p>
                         <MdOutlineDarkMode className="dark:text-white"/>
                     </div>
+                    </span>
+                       
+
+                         {/* <div  className=" py-1"> <a href="" className="py-3"> About </a>  </div> 
+                         <div  className=" py-1">  <a href="text-gray-600" > Work </a></div>
+                         <div  className=" py-1"> <a href=""> Testimonials </a></div>
+                        <div  className=" py-1"> <a href="" > Contact</a></div> */}
+                    </div>
+                   
                     <button className="flex justify-center py-[6px] px-[16] w-[280px] h-[36px]
                     bg-black text-gray-200 rounded  font-bold py-3 dark:bg-white dark:text-black"> Download CV</button>     
                                     
