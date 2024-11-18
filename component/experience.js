@@ -7,19 +7,18 @@ export function Experience (){
             <p className="text-center  ">Here is a quick summary of my most recent experiences:</p>
             <div className="flex flex-col justify-center items-center gap-[48px] my-5 text-start  pb-20">
             <Upwork 
-                date="Nov 2021-Present"
-                position="Sr.Frontend Developer"  
+                date="Jul 2020-Present"
+                position="Specialist at sport department"  
                 projects="{lorem ipsum} {dotrgar}"   
+            />
+             <Upwork 
+                date="Nov 2020-Present"
+                position="Coach of shooting sport"  
             />
              <Upwork 
                 date="Nov 2021-Present"
                 position="Sr.Frontend Developer"  
-                projects="{lorem ipsum} {dotrgar}"   
-            />
-             <Upwork 
-                date="Nov 2021-Present"
-                position="Sr.Frontend Developer"  
-                projects="mt mgri anrga, agrag,"  
+                projects=""  
             />     
              </div>
         </div>

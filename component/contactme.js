@@ -14,10 +14,10 @@ export function Contact() {
                 or simply want to connect.</p>
             <div className="text-3xl  pt-5 flex gap-4">
                 <AiOutlineMessage />
-                reachsagarshah@gmail.com 
+                munkhzul.odonkhuu@gmail.com 
                 <button>   <PiCopySimpleDuotone  /></button>
             </div>               
-            <div className="text-3xl py-5">+918980500565</div>
+            <div className="text-3xl py-5">+976 99477808</div>
             <div className=" py-5 ">You may also find me on these platforms:
                 <div className="flex  gap-3 justify-center mt-3">
                     <img src="http://localhost:3000/images/Icon%20Button.png/" />
