@@ -10,10 +10,10 @@ const worksData = [
         link:"vercel.e-commerce.com"
     },
     {
-        web: "/public/images/fisk.png",
+        web: "/images/amidos.png",
         skill: "Amido's",
         text1: "Restaurant web site. Admin and client side. Clients can see special food, and order food by quantity. Also can book table. And see where delivery staff going on google map. Admin can add, update, delete food by price, ingredients and name etc, ",
-        link:"vercel.amidos.com"
+        link:"https://amidos.vercel.app/"
     },
     {
         skill: "HR-leave request",
@@ -56,19 +56,21 @@ function WorkCard({ work, isReverse }) {
 
                 <div className="columns-3   md:flex md:flex-wrap text-start  ">
                     <LanName LanName="React" />
-                    <LanName LanName="Storybook" />
+                    <LanName LanName="GraphQl" />
                     <LanName LanName="Typescript" />
                     <LanName LanName="Nest.js" />
                     <LanName LanName="PostgreSQL" />
                     <LanName LanName="Tailwind.css" />
                     <LanName LanName="Figma" />
-                    <LanName LanName="Cypress" />
                     <LanName LanName="PostgreSQL" />
                     <LanName LanName="Git" />
                     <LanName LanName="Github" />
+                    <LanName LanName="MySQL" />
+                    <LanName LanName="MongoDB" />
+                    <LanName LanName="" />
                 </div>  
             <a href={work.link}>
-                <CiShare1 className="text-2xl ml-3 my-3 md:mt-8 " />
+                <CiShare1 className="text-2xl ml-6 mb-6 md:mb-8 " />
             </a> 
                
              

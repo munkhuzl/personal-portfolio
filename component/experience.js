@@ -9,7 +9,7 @@ export function Experience (){
             <Upwork 
                 date="Jul 2020-Present"
                 position="Specialist at sport department"  
-                projects="{lorem ipsum} {dotrgar}"   
+                projects="coach of shooting sport"   
             />
              <Upwork 
                 date="Nov 2020-Present"
