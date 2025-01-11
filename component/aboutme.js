@@ -4,7 +4,6 @@ export function Aboutme(){
             <div className="text-center" >
                   <button className="rounded-full bg-gray-200 my-5 dark:bg-gray-800 p-2">About me</button>
             </div>
-          
              <div className=" md:flex md:gap-16 ">
                 <img src="/images/me.jpg"  className="py-5 md:h-full my-auto h-[380px] w-[200px] md:align-items-center mx-auto md:flex-1 rounded-lg"/>
                 <div className="py-5 mx-auto md:flex-1">
@@ -22,7 +21,6 @@ export function Aboutme(){
                     <p className="py-3 text-gray-600">I began my journey as a web developer in 2024, and since then i've continued to grow and evolve as a developer, 
                         taking on new challenges and learning the latest 
                         technologies and learning the latest technologies along the way. 
-
                     </p>
                     <p className="py-3 text-gray-600">I'm building cutting-edge web
                          appliciations using modern technologies such as
@@ -38,7 +36,6 @@ export function Aboutme(){
                 </div>
             </div>
         </div>
-       
         
     )
 }

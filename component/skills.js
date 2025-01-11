@@ -6,8 +6,8 @@ export function Skills (){
             <p className="text-center pb-10">The skills, tools and technologies I am really good at:</p>
             <div className="grid grid-cols-3 md:grid md:grid-cols-8 gap-2 md:justify-items-center">
             <Language 
-                img="/images/icon-typescript.jpg"
-                name="Typescript"/>
+                img="/images/html.png"
+                name="HTML "/>
                 <Language 
                 img="/images/icon-nest.png"
                 className="hover: --tw-rotate: 3deg transform: translate(var(--tw-translate-x)"
@@ -47,8 +47,11 @@ export function Skills (){
                 img="/images/icon-react.png"
                 name="React"/>
                     <Language 
-                img="/images/icon-git.png"
-                name="Git"/>
+                img="/images/graphql.png"
+                name="GraphQl"/>
+                 <Language 
+                img="/images/express-js.png"
+                name="Express.js"/>
                  </div> 
         </div>
     )
