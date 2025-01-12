@@ -56,7 +56,7 @@ export function Works() {
 function WorkCard({ work, isReverse }) {
   return (
     <div
-      className={`text-center shadow rounded-md ${
+      className={`text-center shadow-md rounded-md ${
         isReverse ? "md:flex-row-reverse" : ""
       }  md:flex  m-10 shadow`}
     >
@@ -66,7 +66,7 @@ function WorkCard({ work, isReverse }) {
         </a> 
       </div>
       <div className=" md:flex-1 bg-gray-100 dark:bg-gray-900 rounded-md">
-        <h1 className="font-bold text-2xl text-start py-5 px-5">
+        <h1 className="font-bold text-2xl text-start py-5 px-5 ">
           {work.skill}
         </h1>
         <div className="">
